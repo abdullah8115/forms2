@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title> Form Assignment </title>
+
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+
+        <legend> <h3>  Personal Information </h3> </legend> 
+
+        <p>First Name:
+            <input type="text" maxlength="15" placeholder="Enter Your First Name Here" required="required" >
+        </p>
+
+        <p>Last Name:
+            <input type="text" maxlength="15" placeholder="Enter Your Last Name Here" required="required" >
+        </p>
+
+        <p>Date Of Birth
+            <input type="date" value="January" placeholder="Month" required="required">
+        </p>
+
+        <p> Gender:
+            <select name="Gender" required="required" >
+                <option value="Male"> Male </option>
+                <option value="Female"> Female </option>
+                <option value="Rather Not Say"> Rather Not Say</option>
+            </select>
+        </p>
+
+        </fieldset>
+
+
+        <fieldset>
+
+        <legend> <h3> Account Information </h3>  </legend>
+
+        <p>Email:
+            <input type="email" placeholder="Enter Your Email Here" required="required" >
+            <br />
+            (Your Email Address Will Be Your UserName)
+        </p>
+
+        <p>Re-type Email:
+            <input type="email" placeholder="Re-type Your Email Here" required="required">
+        </p>
+
+        <p>Password:
+            <input type="password" placeholder="Enter Your Password Here" required="required">
+            <br />
+            (Min. 8 characters, 1 number, case sensitive)
+        </p>
+
+        <p>Re-Type Password:
+            <input type="password" placeholder="Re-Type Your Password Here" required="required">
+        </p>
+
+        <p>Security Question:
+            <select value="Security" placeholder="Choose a security question." required="required"> 
+                <option selected disabled hidden> Choose a security question. </option>
+                <option value="What is the name of your first teacher ?"> What is the name of your first teacher ?</option>
+                <option value="What is the name of your first pet ?"> What is the name of your first pet ? </option>
+                <option value="Who is your favourite sports player ?"> Who is your favourite sports player ? </option>
+            </select>
+        </p>
+
+        <p>Security Answer:
+            <input type="text" placeholder="Security Answer">
+            <br />
+            (Not Case-Sensitive)
+        </p>
+        </fieldset>
+
+
+        <fieldset>
+        <legend> <h3> Contact Information </h3> </legend>
+
+        <p>Address:
+            <input type="address" placeholder="Enter Your Home Address">
+        </p>
+
+        <p>City:
+            <input type="city" placeholder="City">
+        </p>
+
+        <p>Province:
+            <select required="required">
+                <option selected hidden disabled> Choose Your Province </option>
+                <option value="Sindh" > Sindh </option>
+                <option value="Punjab" > Punjab </option>
+                <option value="Balochistan" > Balochistan </option>
+                <option value="Khyber Pakhtunkhwa" > Khyber Pakhtunkhwa </option>
+                <option value="Azad Kashmir" > Azad Kashmir </option>
+            </select>
+        </p>
+
+        <p>Zipcode:
+            <input type="number" maxlength="8" required="required">
+            <input type="text" readonly value="Optional">
+        </p>
+
+        <p>Phone:
+            <input type="number" maxlength="11" required="required"  >
+            <select>
+                <option value="Mobile Phone"> Mobile Phone </option>
+                <option value="Telephone"> Telephone </option>
+                <br />
+                (No spaces or dashes)
+            </select>
+
+        </p>
+
+        </fieldset>
+
+        <button> Submit </button>
+    </form>
+
+    </table>
+    
+</body>
+
+</html>
